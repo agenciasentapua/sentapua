@@ -9,8 +9,7 @@
     "Theme",
     "Wordpress",
     "Blue",
-    "3",
-    "Columns"
+    "3 Columns"
   ],
   "license": "MIT",
   "homepage": "http://www.agenciasentapua.com.br",
@@ -21,5 +20,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
 }
