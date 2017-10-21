@@ -1,0 +1,25 @@
+{
+  "name": "agencia-sentapua",
+  "authors": [
+    "ricardoamb <ricardoamb.dev@gmail.com>"
+  ],
+  "description": "Website da Agência Sentapúa",
+  "main": "index.php",
+  "keywords": [
+    "Theme",
+    "Wordpress",
+    "Blue",
+    "3",
+    "Columns"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.agenciasentapua.com.br",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
