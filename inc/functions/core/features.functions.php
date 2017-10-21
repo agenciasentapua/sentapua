@@ -51,6 +51,8 @@ class theme {
 		if ( version_compare( $GLOBALS['wp_version'], '4.8.0', '<' ) ) {
 			wp_die( __( $this->br_system_error( 'Tema Incompatível', 'Versão de sistema incompatível com o tema.<br>Atualize o sistema e tente novamente' ) ) );
 		}
+		define('tDir',get_template_directory_uri());
+		define('taDir',get_template_directory());
 		$f = new functions();
 		$f->call( 'assets', 'core' );
 		$f->call( 'options', 'core' );
